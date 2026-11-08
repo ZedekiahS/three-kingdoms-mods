@@ -6,14 +6,4 @@ __pycache__/
 *.ccd
 *.zip
 dist/
-trait_readout/*
-!trait_readout/caabBinary.mjs
-character_audit/*.json
-work/prototypes/portrait-pack/assets_src*/
-work/prototypes/portrait-pack/reference/
-work/prototypes/portrait-pack/route_probe*/
-work/prototypes/portrait-pack/release*/
-work/prototypes/portrait-pack/*_manifest.json
-work/prototypes/portrait-pack/binding_map.json
-tools/local_inventory.json
 .env*

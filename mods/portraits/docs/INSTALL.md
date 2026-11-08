@@ -6,7 +6,7 @@ GitHub 仓库包含自己的代码、27 人原画、重画样稿、人物键、P
 
 新电脑安装游戏及 MTU；不要复制别人整套 Steam 目录。确认游戏 1.7.2.0、MTU 3.3；其他版本先重新审查。Steam Workshop 的 MTU 文件一般在 `steamapps/workshop/content/779340/1812159400/[mod]Lady_bian_FLC.pack`。
 
-安装 Git、Python 3.11+、Node 22+、7-Zip。克隆仓库后执行 README 中 `npm ci` 与 `tools/rebuild.py`。使用自己的 `--game-data`、`--workshop`、`--sevenzip` 路径。构建不修改游戏目录、不修改存档。
+安装 Git、Python 3.11+、Node 22+、7-Zip。克隆合集仓库后先进入 `mods/portraits`，再执行本项目 README 中 `npm ci` 与 `tools/rebuild.py`；下文所有构建命令均在该子目录运行。使用自己的 `--game-data`、`--workshop`、`--sevenzip` 路径。构建不修改游戏目录、不修改存档。
 
 首次构建需要从本机包读取目录和开局，所以纯源码下载后没有现成 `.pack` 是正常的。Node 的 sharp 有本机二进制依赖，请在新机器 `npm ci`，不要复制旧 node_modules。构建产生的本地路径记录只在被忽略的生成目录里。
 
