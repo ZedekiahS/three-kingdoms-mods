@@ -1,0 +1,13 @@
+court_readout/
+work/prototypes/inner-palace/*_src/
+work/prototypes/inner-palace/debug_v1/
+work/prototypes/inner-palace/*_manifest.json
+trait_readout/*
+!trait_readout/caabBinary.mjs
+__pycache__/
+*.pyc
+*.pack
+*.esf
+*.ccd
+*.7z
+*.lzma

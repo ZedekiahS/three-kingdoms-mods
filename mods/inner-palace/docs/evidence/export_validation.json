@@ -1,0 +1,30 @@
+{
+  "status": "build only; not game acceptance",
+  "inputs": {
+    "ui/campaign ui/family_court_panel.twui.xml": "2b9c5aa4942efdd27f5055ffc8eed053f52f63c52cbd27a974f845784f1c9b3d",
+    "ui/campaign ui/court_screen_info_lists.twui.xml": "e9be537cebcd264ae6c8996206ccac94b5551106a577c5dcb295e68ed018b9f7",
+    "ui/campaign ui/court_screen_minister_slot.twui.xml": "527fb9ebdf64e52df24e3ab38864c703223fad4526cbe933cf19b5ab7b35b9be",
+    "ui/campaign ui/court_screen.twui.xml": "88b6147f81db7fafd5f452a8e01615a10d30b753f60ea0ec14a064e33e7aff45",
+    "ui/campaign ui/court_screen_imperial_court.twui.xml": "4542dd49731fb54d09cd29f6a84963b514c060ee9e0030858e65fcda6b4b3dd3",
+    "database.pack": "06d18cb5852bf756c2e6ce408fef596c98c830bcdff3a51446361ae93dc712c9",
+    "data.pack": "ec47ed97ca2008deb4f0fb31bb1cf53caba16c4207bdd8345e958f071ea546a9",
+    "fast.pack": "9a08711442b1208334e8feabe6e94c7c6eb8edda4faab5d3caf95137560dd322"
+  },
+  "output": {
+    "sha256": "8453c06a77a57626e2b53e5e0cdc895d08c8cb3e5de11c19445bce7734e548f1",
+    "bytes": 23603235
+  },
+  "date": "2026-11-08",
+  "candidate_byte_identical": true,
+  "checks": [
+    "10 startpos full compression roundtrips",
+    "existing posts and excluded factions preserved",
+    "14 fixed slots and unique post IDs",
+    "native UI command preservation",
+    "pack readback and localisation",
+    "spouse roster fixture",
+    "appointment family eligibility fixture",
+    "Python syntax and staged file privacy/artifact scan"
+  ],
+  "game_runtime": "Not run for this exported candidate; user paused testing."
+}

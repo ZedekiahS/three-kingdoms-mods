@@ -7,8 +7,9 @@
 | 目录 | 内容 | 当前状态 |
 |---|---|---|
 | [mods/portraits](mods/portraits/) | 原版 / MTU 3.3 立绘实验补丁 | 已上传源码、27 人原画和故障复盘；三人局部游戏验证，画风与专属护甲未完成 |
+| [mods/inner-palace](mods/inner-palace/) | 原生府署复用的后宫机制 | 固定 14 格、局部任职增益及配偶显示已验证；离婚与撤位联合操作尚未验收，开发暂停快照 |
 
-机制 Mod 将后续单独放入 `mods/` 下的新目录；目前尚未上传。合集中的项目不代表可以全部同时启用，兼容性以各自说明和实际测试为准。
+合集中的项目不代表可以全部同时启用，兼容性以各自说明和实际测试为准。后宫与立绘项目都可能修改开局文件，需要合并验证，不能简单叠加两个包。
 
 ## 获取与使用
 
@@ -22,6 +23,8 @@ cd three-kingdoms-mods
 - [立绘现状与构建入口](mods/portraits/README.md)
 - [立绘故障完整复盘：重叠、不显示、头像裁切等](mods/portraits/docs/TROUBLESHOOTING.md)
 - [立绘换电脑恢复与安装](mods/portraits/docs/INSTALL.md)
+- [后宫当前进度、暂停交接与后续计划](mods/inner-palace/docs/HANDOFF.md)
+- [后宫本机重建与验证](mods/inner-palace/docs/BUILD.md)
 
 原仓库名为 `three-kingdoms-portrait-mod`，现改为 `three-kingdoms-mods`。已有克隆可在仓库根目录执行：
 

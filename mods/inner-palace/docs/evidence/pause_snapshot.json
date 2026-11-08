@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-08",
+  "status": "paused_by_user; candidate not runtime accepted",
+  "source_sha256": {
+    "build_court_copy.py": "b62383938a99a7d9e98afe48f1a0e2338a08eec2ccfabb60f0b69d0a17ec5984",
+    "build_lu_bu_test.py": "ccaa248b29038c131a9171ebec1e4d4494f6878e6a436e850e34c9efc8ddfb26",
+    "native_db.py": "b4d0ef1731025f76646fee3d3f63bc7a96e684eeeaabbda4bbb07e6356f9980c",
+    "patch_native_posts.mjs": "1f5211f617e44c3733d9736abe455395a6d7e015ffa5b91a65010c07d7ba0827",
+    "harem_actions.py": "053c91fac3976769180655e26e551e32f7d3bae227df194ec5109054b0970b72",
+    "harem_exit.py": "bdb80fa86cdaf7c819b11d7f13ce5044091041b37d8240725059feefdbf6333f",
+    "spouse_queen.lua": "2673bc64257a29c32342a922bc2c955c4b5b485d80ce8bd0b9f3dc487faad423",
+    "native_court_diagnostic.lua": "a6e976c5fa289595b24d60a660da5d2a05fcd4c871e1506ebda52296259a8ea6",
+    "verify_court_copy.py": "badff9f55ec8a9698d54b42ca4c91616e5c1529f57a1b7da181e385f20b3b29d",
+    "verify_appointment_guard.py": "9b7e202fd891ccfb0b7d87f9c55e4e7924dedbefbe3fcb7c9c656bcd745ef01e",
+    "verify_spouse_roster.py": "6a3fea8fe8e133ef69e1cee81fff34d76befbedfcdd75cf2901a2ba2d73efab1"
+  },
+  "local_only_artifacts": {
+    "pre_spouse_baseline": {
+      "sha256": "44a0470837d298b741454cb9d382422a3042b8fa80511e764bc2f344498c2cc7",
+      "bytes": 23595650
+    },
+    "runtime_isolation": {
+      "sha256": "447e9c4b5dc0163942280082206db165701d29d181b71a30129558448f0909c5",
+      "bytes": 23600095
+    },
+    "unverified_candidate": {
+      "sha256": "8453c06a77a57626e2b53e5e0cdc895d08c8cb3e5de11c19445bce7734e548f1",
+      "bytes": 23603235
+    },
+    "installed_at_pause": {
+      "sha256": "447e9c4b5dc0163942280082206db165701d29d181b71a30129558448f0909c5",
+      "bytes": 23600095
+    }
+  }
+}

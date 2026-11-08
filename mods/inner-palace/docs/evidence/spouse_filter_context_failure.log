@@ -1,0 +1,55 @@
+
+****************************
+Loading Mods
+Loading mod file [script\_lib\mod\test_script_here.lua]
+Mod [script\_lib\mod\test_script_here.lua] loaded successfully
+Loading mod file [script\campaign\mod\syc_harem_preview.lua]
+Mod [script\campaign\mod\syc_harem_preview.lua] loaded successfully
+Loading mod file [script\campaign\mod\syc_quick_start.lua]
+Mod [script\campaign\mod\syc_quick_start.lua] loaded successfully
+****************************
+
+
+****************************
+Executing Mods
+Executing mod function test_script_here()
+test_script_here() executed successfully
+Executing mod function syc_harem_preview()
+[SYC NATIVE CHECK] diagnostic loaded
+syc_harem_preview() executed successfully
+Executing mod function syc_quick_start()
+[SYC QUICK START] installed
+syc_quick_start() executed successfully
+****************************
+
+[SYC NATIVE CHECK] posts: 3k_main_court_offices_prime_minister,3k_main_court_offices_minister_wood,3k_main_court_offices_minister_metal,faction_heir,3k_main_court_offices_governor,3k_main_court_offices_minister_water,faction_leader,3k_main_court_offices_minister_earth,3k_main_court_offices_minister_fire,syc_harem_queen_1,syc_harem_noble_1,syc_harem_noble_2,syc_harem_beauty_1,syc_harem_beauty_2,syc_harem_beauty_3,syc_harem_attendant_1,syc_harem_attendant_2,syc_harem_attendant_3,syc_harem_chosen_1,syc_harem_chosen_2,syc_harem_chosen_3,syc_harem_chosen_4,syc_harem_chosen_5
+[SYC NATIVE CHECK] CampaignRoot.FactionList.Filter((x) => x.FactionRecordContext.Key == "3k_main_faction_yuan_shu").FirstContext.CharacterList.Size => true 9
+[SYC NATIVE CHECK] CampaignRoot.FactionList.Filter((x) => x.FactionRecordContext.Key == "3k_main_faction_yuan_shu").FirstContext.IsPlayersFaction => true true
+[SYC NATIVE CHECK] CampaignRoot.FactionList.Filter((x) => x.FactionRecordContext.Key == "3k_main_faction_yuan_shu").FirstContext.CharacterList.Filter(IsMale == false && IsContextValid(SpouseContext)).Size => false [string "script\campaign\mod\syc_harem_preview.lua"]:82: Context Runtime Error: Failed to evaluate runtime lookup for function 'SpouseContext', does the function exist and is it exported correctly?
+Context Object Type: CcoStaticObject
+Expression: CampaignRoot.FactionList.'Filter'((x ) => { x.FactionRecordContext.Key == '3k_main_faction_yuan_shu' }).FirstContext.CharacterList.'Filter'(IsMale == false && IsContextValid(SpouseContext)).Size
+[SYC NATIVE CHECK] CampaignRoot.FactionList.Filter((x) => x.FactionRecordContext.Key == "3k_main_faction_yuan_shu").FirstContext.CharacterList.Filter(IsMale == false && SpouseContext.IsFactionLeader).Size => true 1
+[SYC NATIVE CHECK] CampaignRoot.FactionList.Filter((x) => x.FactionRecordContext.Key == "3k_main_faction_yuan_shu").FirstContext.CharacterList.Filter(IsMale == false && SpouseContext.FactionContext.IsPlayersFaction).Size => true 1
+[SYC NATIVE CHECK] CampaignRoot.FactionList.Filter((x) => x.FactionRecordContext.Key == "3k_main_faction_yuan_shu").FirstContext.CharacterList.Filter(IsMale == false && (IsEligibleForMarriage || (IsContextValid(SpouseContext) && SpouseContext.IsFactionLeader && SpouseContext.FactionContext.IsPlayersFaction))).Size => false [string "script\campaign\mod\syc_harem_preview.lua"]:82: Context Runtime Error: Failed to evaluate runtime lookup for function 'SpouseContext', does the function exist and is it exported correctly?
+Context Object Type: CcoStaticObject
+Expression: CampaignRoot.FactionList.'Filter'((x ) => { x.FactionRecordContext.Key == '3k_main_faction_yuan_shu' }).FirstContext.CharacterList.'Filter'(IsMale == false && IsEligibleForMarriage || IsContextValid(SpouseContext) && SpouseContext.IsFactionLeader && SpouseContext.FactionContext.IsPlayersFaction).Size
+[SYC NATIVE CHECK] CampaignRoot.FactionList.Filter((x) => x.FactionRecordContext.Key == "3k_main_faction_yuan_shu").FirstContext.CharacterList.Filter(IsMale == false).Size => true 2
+[SYC NATIVE CHECK] CampaignRoot.FactionList.Filter((x) => x.FactionRecordContext.Key == "3k_main_faction_yuan_shu").FirstContext.CharacterList.Filter(IsMale == false && IsEligibleForMarriage == false).Size => true 1
+[SYC NATIVE CHECK] IsContextValid(CampaignRoot.FactionList.Filter((x) => x.FactionRecordContext.Key == "3k_main_faction_yuan_shu").FirstContext.FactionLeaderContext.SpouseContext) => true true
+[SYC NATIVE CHECK] CampaignRoot.FactionList.Filter((x) => x.FactionRecordContext.Key == "3k_main_faction_yuan_shu").FirstContext.FactionLeaderContext.SpouseContext.IsMale => true false
+[SYC NATIVE CHECK] CampaignRoot.FactionList.Filter((x) => x.FactionRecordContext.Key == "3k_main_faction_yuan_shu").FirstContext.FactionLeaderContext.SpouseContext.ComeOfAge => true true
+[SYC NATIVE CHECK] CampaignRoot.FactionList.Filter((x) => x.FactionRecordContext.Key == "3k_main_faction_yuan_shu").FirstContext.FactionLeaderContext.SpouseContext.IsAlive => true true
+[SYC NATIVE CHECK] CampaignRoot.FactionList.Filter((x) => x.FactionRecordContext.Key == "3k_main_faction_yuan_shu").FirstContext.FactionLeaderContext.SpouseContext.IsBanished => true false
+[SYC NATIVE CHECK] CampaignRoot.FactionList.Filter((x) => x.FactionRecordContext.Key == "3k_main_faction_yuan_shu").FirstContext.FactionLeaderContext.SpouseContext.IsTemporaryCommander => true false
+[SYC NATIVE CHECK] CampaignRoot.FactionList.Filter((x) => x.FactionRecordContext.Key == "3k_main_faction_yuan_shu").FirstContext.FactionLeaderContext.SpouseContext.SpouseContext.IsFactionLeader => true true
+[SYC NATIVE CHECK] CampaignRoot.FactionList.Filter((x) => x.FactionRecordContext.Key == "3k_main_faction_yuan_shu").FirstContext.FactionLeaderContext.SpouseContext.SpouseContext.FactionContext.IsPlayersFaction => true true
+[SYC NATIVE CHECK] CampaignRoot.FactionList.Filter((x) => x.FactionRecordContext.Key == "3k_main_faction_yuan_shu").FirstContext.NoblesCharacterList.Size => true 4
+[SYC NATIVE CHECK] CampaignRoot.FactionList.Filter((x) => x.FactionRecordContext.Key == "3k_main_faction_yuan_shu").FirstContext.NoblesCharacterList.Filter(IsMale == false).Size => true 1
+[SYC NATIVE CHECK] CampaignRoot.FactionList.Filter((x) => x.FactionRecordContext.Key == "3k_main_faction_yuan_shu").FirstContext.NoblesCharacterList.Filter(IsMale == false && ComeOfAge).Size => true 1
+[SYC NATIVE CHECK] CampaignRoot.FactionList.Filter((x) => x.FactionRecordContext.Key == "3k_main_faction_yuan_shu").FirstContext.NoblesCharacterList.Filter(IsTemporaryCommander == false && ComeOfAge && IsMale == false && IsEligibleForMarriage).Size => true 1
+[SYC NATIVE CHECK] CampaignRoot.FactionList.Filter((x) => x.FactionRecordContext.Key == "3k_main_faction_yuan_shu").FirstContext.NoblesCharacterList.Filter(IsMale == false).FirstContext.IsEligibleForMarriage => true true
+[SYC NATIVE CHECK] IsContextValid(CampaignRoot.FactionList.Filter((x) => x.FactionRecordContext.Key == "3k_main_faction_yuan_shu").FirstContext.NoblesCharacterList.Filter(IsMale == false).FirstContext.SpouseContext) => true false
+[SYC NATIVE CHECK] IsContextValid(CampaignRoot.FactionList.Filter((x) => x.FactionRecordContext.Key == "3k_main_faction_yuan_shu").FirstContext.GovermentPostForKey("syc_harem_queen_1")) => true true
+[SYC NATIVE CHECK] CampaignRoot.FactionList.Filter((x) => x.FactionRecordContext.Key == "3k_main_faction_yuan_shu").FirstContext.GovermentPostForKey("syc_harem_queen_1").HasPositionsAvailable => true false
+[SYC NATIVE CHECK] CampaignRoot.FactionList.Filter((x) => x.FactionRecordContext.Key == "3k_main_faction_yuan_shu").FirstContext.GovermentPostForKey("3k_main_court_offices_prime_minister").HasPositionsAvailable => true true
+[SYC SPOUSE] queen assigned: 3k_main_template_historical_lady_feng_hero_water
