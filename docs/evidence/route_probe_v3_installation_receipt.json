@@ -1,0 +1,11 @@
+{
+  "installed_path": "<LOCAL>/syc_portraits_route_probe.pack",
+  "sha256": "19540692caa727c2d04a7ae50c594700b1daf7b1b37d033469ac4b4c22274fa0",
+  "hash_verified": true,
+  "characters": [
+    "lu_meng",
+    "lu_su",
+    "han_dang"
+  ],
+  "runtime_passed": false
+}

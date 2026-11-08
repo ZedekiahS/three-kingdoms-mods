@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-08",
+  "validation": "Fresh repository rebuild + static regression; no new game runtime run",
+  "matches_previous_workspace_outputs_byte_for_byte": {
+    "syc_portraits_assets.pack": true,
+    "syc_portraits_mtu33.pack": true,
+    "syc_portraits_route_probe.pack": true,
+    "syc_portraits_vanilla.pack": true
+  },
+  "sha256": {
+    "syc_portraits_assets.pack": "d47c3faa9ce750bc8563692d5574ec773528620612a8789d0d90c0b7e5109dd5",
+    "syc_portraits_mtu33.pack": "7733aac234a2e5da989f428d9b027495200baa0680d45e1618a22fb635929dbc",
+    "syc_portraits_route_probe.pack": "19540692caa727c2d04a7ae50c594700b1daf7b1b37d033469ac4b4c22274fa0",
+    "syc_portraits_vanilla.pack": "9dbb59c467b94207949d8f32efc8bd1dd78f70eba9091262ef8b96496841805d"
+  }
+}

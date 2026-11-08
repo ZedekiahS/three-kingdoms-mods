@@ -1,0 +1,11 @@
+{
+  "installed_path": "<LOCAL>/syc_portraits_route_probe.pack",
+  "sha256": "6a808784f7d72e9c76c2f73f5cd402af882f40f68ce4243dc682d7319deca769",
+  "hash_verified": true,
+  "launcher_enabled": false,
+  "runtime_passed": false,
+  "cases": [
+    "鲁肃",
+    "韩当"
+  ]
+}

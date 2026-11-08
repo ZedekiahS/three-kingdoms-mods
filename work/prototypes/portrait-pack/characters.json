@@ -1,0 +1,272 @@
+[
+  {
+    "id": "lu_xun",
+    "name": "陆逊",
+    "template": "3k_main_template_historical_lu_xun_hero_water",
+    "portrait": "syc_portrait_lu_xun",
+    "art_set": "syc_art_set_lu_xun",
+    "source": "character_art/male_special_titles_v1/lu_xun_v1.png",
+    "face_x": 0.52,
+    "face_y": 0.14
+  },
+  {
+    "id": "lu_su",
+    "name": "鲁肃",
+    "template": "3k_main_template_historical_lu_su_hero_water",
+    "portrait": "syc_portrait_lu_su",
+    "art_set": "syc_art_set_lu_su",
+    "source": "character_art/male_special_titles_v1/lu_su_v1.png",
+    "face_x": 0.56,
+    "face_y": 0.14
+  },
+  {
+    "id": "lu_meng",
+    "name": "吕蒙",
+    "template": "3k_main_template_historical_lu_meng_hero_metal",
+    "portrait": "syc_portrait_lu_meng",
+    "art_set": "syc_art_set_lu_meng",
+    "source": "character_art/male_special_titles_v1/lu_meng_v1.png",
+    "face_x": 0.53,
+    "face_y": 0.14
+  },
+  {
+    "id": "han_dang",
+    "name": "韩当",
+    "template": "3k_main_template_historical_han_dang_hero_fire",
+    "portrait": "syc_portrait_han_dang",
+    "art_set": "syc_art_set_han_dang",
+    "source": "character_art/male_special_titles_v1/han_dang_v1.png",
+    "face_x": 0.48,
+    "face_y": 0.14
+  },
+  {
+    "id": "ling_tong",
+    "name": "凌统",
+    "template": "3k_main_template_historical_ling_tong_hero_wood",
+    "portrait": "syc_portrait_ling_tong",
+    "art_set": "syc_art_set_ling_tong",
+    "source": "character_art/male_special_titles_v1/ling_tong_v1.png",
+    "face_x": 0.38,
+    "face_y": 0.14
+  },
+  {
+    "id": "zhuge_jin",
+    "name": "诸葛瑾",
+    "template": "3k_main_template_historical_zhuge_jin_hero_water",
+    "portrait": "syc_portrait_zhuge_jin",
+    "art_set": "syc_art_set_zhuge_jin",
+    "source": "character_art/male_special_titles_v1/zhuge_jin_v1.png",
+    "face_x": 0.51,
+    "face_y": 0.14
+  },
+  {
+    "id": "jiang_wei",
+    "name": "姜维",
+    "template": "3k_main_template_historical_jiang_wei_hero_fire",
+    "portrait": "syc_portrait_jiang_wei",
+    "art_set": "syc_art_set_jiang_wei",
+    "source": "character_art/male_special_titles_v1/jiang_wei_v1.png",
+    "face_x": 0.54,
+    "face_y": 0.14
+  },
+  {
+    "id": "ma_dai",
+    "name": "马岱",
+    "template": "3k_main_template_historical_ma_dai_hero_fire",
+    "portrait": "syc_portrait_ma_dai",
+    "art_set": "syc_art_set_ma_dai",
+    "source": "character_art/male_special_titles_v1/ma_dai_v1.png",
+    "face_x": 0.48,
+    "face_y": 0.14
+  },
+  {
+    "id": "cheng_yu",
+    "name": "程昱",
+    "template": "3k_main_template_historical_cheng_yu_hero_water",
+    "portrait": "syc_portrait_cheng_yu",
+    "art_set": "syc_art_set_cheng_yu",
+    "source": "character_art/male_special_titles_v1/cheng_yu_v1.png",
+    "face_x": 0.52,
+    "face_y": 0.14
+  },
+  {
+    "id": "cao_ang",
+    "name": "曹昂",
+    "template": "3k_main_template_historical_cao_ang_hero_wood",
+    "portrait": "syc_portrait_cao_ang",
+    "art_set": "syc_art_set_cao_ang",
+    "source": "character_art/male_special_titles_v1/cao_ang_v1.png",
+    "face_x": 0.51,
+    "face_y": 0.14
+  },
+  {
+    "id": "zhang_xiu",
+    "name": "张绣",
+    "template": "3k_main_template_historical_zhang_xiu_hero_fire",
+    "portrait": "syc_portrait_zhang_xiu",
+    "art_set": "syc_art_set_zhang_xiu",
+    "source": "character_art/male_special_titles_v1/zhang_xiu_v1.png",
+    "face_x": 0.55,
+    "face_y": 0.14
+  },
+  {
+    "id": "hua_xiong",
+    "name": "华雄",
+    "template": "3k_main_template_historical_hua_xiong_hero_fire",
+    "portrait": "syc_portrait_hua_xiong",
+    "art_set": "syc_art_set_hua_xiong",
+    "source": "character_art/male_special_titles_v1/hua_xiong_v1.png",
+    "face_x": 0.48,
+    "face_y": 0.14
+  },
+  {
+    "id": "tian_feng",
+    "name": "田丰",
+    "template": "3k_main_template_historical_tian_feng_hero_water",
+    "portrait": "syc_portrait_tian_feng",
+    "art_set": "syc_art_set_tian_feng",
+    "source": "character_art/male_special_titles_v1/tian_feng_v1.png",
+    "face_x": 0.48,
+    "face_y": 0.14
+  },
+  {
+    "id": "ju_shou",
+    "name": "沮授",
+    "template": "3k_main_template_historical_ju_shou_hero_water",
+    "portrait": "syc_portrait_ju_shou",
+    "art_set": "syc_art_set_ju_shou",
+    "source": "character_art/male_special_titles_v1/ju_shou_v1.png",
+    "face_x": 0.5,
+    "face_y": 0.14
+  },
+  {
+    "id": "xu_you",
+    "name": "许攸",
+    "template": "3k_main_template_historical_xu_you_hero_water",
+    "portrait": "syc_portrait_xu_you",
+    "art_set": "syc_art_set_xu_you",
+    "source": "character_art/male_special_titles_v1/xu_you_v1.png",
+    "face_x": 0.48,
+    "face_y": 0.14
+  },
+  {
+    "id": "chen_deng",
+    "name": "陈登",
+    "template": "3k_dlc04_template_historical_chen_deng_yuanlong_water",
+    "portrait": "syc_portrait_chen_deng",
+    "art_set": "syc_art_set_chen_deng",
+    "source": "character_art/male_special_titles_v1/chen_deng_v1.png",
+    "face_x": 0.63,
+    "face_y": 0.14
+  },
+  {
+    "id": "huang_yueying",
+    "name": "黄月英",
+    "template": "3k_main_template_historical_lady_huang_yueying_hero_wood",
+    "portrait": "syc_portrait_huang_yueying",
+    "art_set": "syc_art_set_huang_yueying",
+    "source": "character_art/women_collection_v2/huang_yueying_v2.png",
+    "face_x": 0.5,
+    "face_y": 0.14
+  },
+  {
+    "id": "bu_lianshi",
+    "name": "步练师",
+    "template": "3k_main_template_historical_lady_bu_lianshi_hero_wood",
+    "portrait": "syc_portrait_bu_lianshi",
+    "art_set": "syc_art_set_bu_lianshi",
+    "source": "character_art/women_collection_v2/bu_lianshi_v2.png",
+    "face_x": 0.5,
+    "face_y": 0.14
+  },
+  {
+    "id": "zhang_chunhua",
+    "name": "张春华",
+    "template": "3k_main_template_historical_zhang_chunhua_hero_water",
+    "portrait": "syc_portrait_zhang_chunhua",
+    "art_set": "syc_art_set_zhang_chunhua",
+    "source": "character_art/women_collection_v2/zhang_chunhua_v2.png",
+    "face_x": 0.5,
+    "face_y": 0.14
+  },
+  {
+    "id": "wang_yuanji",
+    "name": "王元姬",
+    "template": "3k_main_template_historical_wang_yuanji_hero_earth",
+    "portrait": "syc_portrait_wang_yuanji",
+    "art_set": "syc_art_set_wang_yuanji",
+    "source": "character_art/women_collection_v2/wang_yuanji_v2.png",
+    "face_x": 0.5,
+    "face_y": 0.14
+  },
+  {
+    "id": "xin_xianying",
+    "name": "辛宪英",
+    "template": "3k_main_template_historical_xin_xianying_hero_water",
+    "portrait": "syc_portrait_xin_xianying",
+    "art_set": "syc_art_set_xin_xianying",
+    "source": "character_art/women_collection_v2/xin_xianying_v2.png",
+    "face_x": 0.5,
+    "face_y": 0.14
+  },
+  {
+    "id": "cao_jie",
+    "name": "曹节",
+    "template": "3k_main_template_historical_lady_cao_jie_hero_earth",
+    "portrait": "syc_portrait_cao_jie",
+    "art_set": "syc_art_set_cao_jie",
+    "source": "character_art/women_collection_v2/cao_jie_v2.png",
+    "face_x": 0.5,
+    "face_y": 0.14
+  },
+  {
+    "id": "guo_nuwang",
+    "name": "郭女王",
+    "template": "3k_main_template_historical_guo_nuwang_hero_earth",
+    "portrait": "syc_portrait_guo_nuwang",
+    "art_set": "syc_art_set_guo_nuwang",
+    "source": "character_art/women_collection_v2/guo_nuwang_v2.png",
+    "face_x": 0.5,
+    "face_y": 0.14
+  },
+  {
+    "id": "fu_shou",
+    "name": "伏寿",
+    "template": "3k_main_template_historical_fu_shou_hero_earth",
+    "portrait": "syc_portrait_fu_shou",
+    "art_set": "syc_art_set_fu_shou",
+    "source": "character_art/women_collection_v2/fu_shou_v2.png",
+    "face_x": 0.5,
+    "face_y": 0.14
+  },
+  {
+    "id": "xiahou_hui",
+    "name": "夏侯徽",
+    "template": "3k_main_template_historical_xiahou_hui_hero_earth",
+    "portrait": "syc_portrait_xiahou_hui",
+    "art_set": "syc_art_set_xiahou_hui",
+    "source": "character_art/women_collection_v2/xiahou_hui_v2.png",
+    "face_x": 0.5,
+    "face_y": 0.14
+  },
+  {
+    "id": "yang_huiyu",
+    "name": "羊徽瑜",
+    "template": "3k_main_template_historical_yang_huiyu_hero_earth",
+    "portrait": "syc_portrait_yang_huiyu",
+    "art_set": "syc_art_set_yang_huiyu",
+    "source": "character_art/women_collection_v2/yang_huiyu_v2.png",
+    "face_x": 0.5,
+    "face_y": 0.14
+  },
+  {
+    "id": "sun_luyu",
+    "name": "孙鲁育",
+    "template": "3k_main_template_historical_sun_luyu_hero_earth",
+    "portrait": "syc_portrait_sun_luyu",
+    "art_set": "syc_art_set_sun_luyu",
+    "source": "character_art/women_collection_v2/sun_luyu_v2.png",
+    "face_x": 0.5,
+    "face_y": 0.14
+  }
+]

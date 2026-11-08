@@ -1,0 +1,9 @@
+{
+  "name": "three-kingdoms-portrait-mod",
+  "version": "0.3.0-experimental",
+  "private": true,
+  "description": "Experimental vanilla and MTU 3.3 portrait mod, with reproducible local builds and failure notes",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "dependencies": { "sharp": "0.35.5" }
+}

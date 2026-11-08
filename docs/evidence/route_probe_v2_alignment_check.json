@@ -1,0 +1,82 @@
+{
+  "ui": "court_screen_info_lists.twui.xml: portrait offset y=-61, bobbleheads 84x138",
+  "rows": [
+    {
+      "id": "han_dang",
+      "high": false,
+      "reference": "<WORKSPACE>\\work\\prototypes\\portrait-pack\\route_probe\\native_stills\\bobbleheads_faces_3k_main_hero_generic_male_fire_face_06.png",
+      "canvas": [
+        84,
+        138
+      ],
+      "nativeFaceBox": {
+        "x": 28,
+        "y": 63,
+        "w": 29,
+        "h": 44,
+        "W": 84,
+        "H": 138
+      },
+      "eyeY": 76.8842105263158,
+      "visible": true
+    },
+    {
+      "id": "han_dang",
+      "high": true,
+      "reference": "<WORKSPACE>\\work\\prototypes\\portrait-pack\\route_probe\\native_stills\\bobbleheads_faces_large_3k_main_hero_generic_male_fire_face_06.png",
+      "canvas": [
+        134,
+        220
+      ],
+      "nativeFaceBox": {
+        "x": 45,
+        "y": 101,
+        "w": 46,
+        "h": 71,
+        "W": 134,
+        "H": 220
+      },
+      "eyeY": 124.06315789473683,
+      "visible": true
+    },
+    {
+      "id": "lu_su",
+      "high": false,
+      "reference": "<WORKSPACE>\\work\\prototypes\\portrait-pack\\route_probe\\native_stills\\bobbleheads_faces_3k_main_hero_generic_male_water_strategist_face_09.png",
+      "canvas": [
+        84,
+        138
+      ],
+      "nativeFaceBox": {
+        "x": 22,
+        "y": 66,
+        "w": 32,
+        "h": 46,
+        "W": 84,
+        "H": 138
+      },
+      "eyeY": 79.37647058823529,
+      "visible": true
+    },
+    {
+      "id": "lu_su",
+      "high": true,
+      "reference": "<WORKSPACE>\\work\\prototypes\\portrait-pack\\route_probe\\native_stills\\bobbleheads_faces_large_3k_main_hero_generic_male_water_strategist_face_09.png",
+      "canvas": [
+        134,
+        220
+      ],
+      "nativeFaceBox": {
+        "x": 36,
+        "y": 105,
+        "w": 51,
+        "h": 73,
+        "W": 134,
+        "H": 220
+      },
+      "eyeY": 126.4235294117647,
+      "visible": true
+    }
+  ],
+  "runtime_passed": false
+}
